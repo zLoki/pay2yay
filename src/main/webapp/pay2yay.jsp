@@ -7,7 +7,7 @@
     </head>
 
     <body>
-        <form class="form-horizontal" role="form" action="pay2yay.html" method="get">
+        <form class="form-horizontal" role="form" action="pay2yay.html" method="post">
             <div class="row">
             <div class="col-md-5 col-md-offset-4"><h2 class="form-signing-heading">Money Transfer Form</h2></div>
             </div>

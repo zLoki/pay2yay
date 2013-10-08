@@ -6,12 +6,12 @@
 	<display-name>Pay2Yay System</display-name>
 
     <servlet>
-        <servlet-name>Sample</servlet-name>
+        <servlet-name>Submit</servlet-name>
         <servlet-class>com.in6k.paysys.Pay2Yay</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Sample</servlet-name>
+        <servlet-name>Submit</servlet-name>
         <url-pattern>/pay2yay.html</url-pattern>
     </servlet-mapping>
 </web-app>

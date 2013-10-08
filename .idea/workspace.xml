@@ -5,7 +5,7 @@
     <ignored path="Sample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/SampleServlet.java" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381156525986" ignored="false" />
-    <file path="/web.xml" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381214117945" ignored="false" />
+    <file path="/web.xml" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381222872620" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381172109023" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled1/.idea/MoneyTransfer.html" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381149483396" ignored="false" />
     <file path="/MoneyTransfer.html" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381149483396" ignored="false" />
@@ -25,8 +25,10 @@
     <file path="$PROJECT_DIR$/../untitled1/.idea/test.html" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381171808300" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled1/.idea/misc.xml" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381160511857" ignored="false" />
     <file path="/test.html" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381171781291" ignored="false" />
-    <file path="/transactioncomplete.jsp" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381213621139" ignored="false" />
+    <file path="/transactioncomplete.jsp" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381222923378" ignored="false" />
     <file path="/Pay2YayLogger.java" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381213810159" ignored="false" />
+    <file path="/pay2yay.jsp" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381222775206" ignored="false" />
+    <file path="/Pay2Yay.java" changelist="4c4ae423-52fe-48df-8933-ad0694d6dc7f" time="1381222782201" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +90,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pay2yay.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pay2yay.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pay2yay.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="63" selection-start="733" selection-end="733" vertical-scroll-proportion="0.46279493">
+            <state line="9" column="84" selection-start="355" selection-end="355" vertical-scroll-proportion="7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transactioncomplete.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/transactioncomplete.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="18" selection-start="98" selection-end="98" vertical-scroll-proportion="0.08166969">
               <folding />
             </state>
           </provider>
@@ -109,7 +120,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="406" selection-end="406" vertical-scroll-proportion="-5.6896553">
+            <state line="14" column="29" selection-start="502" selection-end="502" vertical-scroll-proportion="-7.2413793">
               <folding />
             </state>
           </provider>
@@ -118,7 +129,7 @@
       <file leaf-file-name="Pay2Yay.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2Yay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+            <state line="27" column="54" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +157,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Transactioncomplete.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/IPayLogger.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/iPay.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/transactioncomplete.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2YayLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2Yay.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pay2yay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2Yay.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/transactioncomplete.jsp" />
       </list>
     </option>
   </component>
@@ -733,6 +744,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2Yay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="54" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -744,30 +764,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="406" selection-end="406" vertical-scroll-proportion="-5.6896553">
+        <state line="14" column="29" selection-start="502" selection-end="502" vertical-scroll-proportion="-7.2413793">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pay2yay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="84" selection-start="355" selection-end="355" vertical-scroll-proportion="7.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/transactioncomplete.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="150" selection-end="150" vertical-scroll-proportion="0.16333938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/in6k/paysys/Pay2Yay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pay2yay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="63" selection-start="733" selection-end="733" vertical-scroll-proportion="0.46279493">
+        <state line="3" column="18" selection-start="98" selection-end="98" vertical-scroll-proportion="0.08166969">
           <folding />
         </state>
       </provider>

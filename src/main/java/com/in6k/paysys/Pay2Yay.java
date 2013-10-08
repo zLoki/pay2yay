@@ -12,7 +12,7 @@ public class Pay2Yay extends HttpServlet {
     private static final Logger logger = Logger.getLogger (Pay2Yay.class);
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         String sender = req.getParameter("sender");
         String receiver = req.getParameter("receiver");
